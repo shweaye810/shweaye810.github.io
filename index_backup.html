@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+        </script>
+        
+        <script>
+            $(document).ready(function() {
+                $("p").on("click", function() {
+                    $(this).hide();
+                });
+            });
+        </script>
+                    
+        <title>
+            Generic page for csc412
+        </title>
+        <link rel="stylesheet" type="text/css" href="site.css">
+    </head>
+    <body>
+        <div>
+            <table id = "myTable">
+                <tr>
+                    <th><a href ="index.html"> Home </a></th>
+                    <th><a href ="about.html"> About </a></th>
+                    <th><a href ="current.html"> Current </a></th>
+                </tr>
+            </table>
+            
+        </div>
+        <h1>Hello world!</h1>
+        <p>This is the page of saye.</p>
+        <p>My name is Shwe Aye.</p>
+        <button onclick="myFunction()">Click me to change color</button>
+        <form action="insert.php" method="post">
+            Quote: <input type="text" name="quote"><br>
+            Whom: <input type="text" name="whom"><br>
+            <input type ="submit">
+        </form>
+
+        <p id="demo"></p>
+
+        <script>
+        function myFunction() {
+            document.getElementById("myTable").style.backgroundColor = "blue";
+        }
+        </script>
+    </body>
+
+</html>
