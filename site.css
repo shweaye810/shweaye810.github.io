@@ -25,10 +25,37 @@ img.displayed {
     margin-right: auto;
 }
 
+img.center {
+    text-align: center;
+}
+
+img.left {
+    float: left;
+}
+img.absolute {
+    position: absolute;
+}
+
 img.resize_300 {
-    height: 350px;
+    height: 300px;
+}
+
+img.resize_250 {
+    height: 250px;
+}
+
+img.resize_150 {
+    height: 150px;
+}
+
+img.resize_100 {
+    height: 100px;
 }
 
 img.resize_16 {
     height: 16px;
+}
+
+img.inline {
+    display:inline-block;
 }
