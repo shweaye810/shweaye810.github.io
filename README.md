@@ -1,6 +1,3 @@
 <head>
-  <p> live version of my website </p>
+  <p> please click above link for live version.</p>
 </head>
-<body>
-  <a href=http://shweaye810.github.io> http://shweaye810.github.io</a>
-</body>
